@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+// import LeetCode from "../Leetcode/Leetcode.tsx";
 
 function About() {
   return (
@@ -46,6 +47,8 @@ function About() {
         <Toolstack />
 
         <Github />
+        {/* <LeetCode username="AniketAgrawal007" /> */}
+
       </Container>
     </Container>
   );

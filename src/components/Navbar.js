@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import UnderConstruction from "./Blog/UnderConstruction.js"; // adjust the path if needed
 import {
   AiFillStar,
   AiOutlineHome,
@@ -19,6 +20,7 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [showUnderConstruction, setShowUnderConstruction] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -94,9 +96,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
@@ -104,7 +106,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/AniketAgra/Portfolio2.0"
                 target="_blank"
                 className="fork-btn-inner"
               >
