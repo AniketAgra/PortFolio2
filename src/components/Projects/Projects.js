@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              // demoLink="https://chatify-49.web.app/"
+              title="Aurora"
+              description="Aurora is an AI-powered conversational agent designed to provide intelligent, context-aware responses by leveraging vector embeddings for semantic search and retrieval."
+              ghLink="https://github.com/AniketAgra/Attack-Capital-Assignment"
+              demoLink="https://attack-capital-assignment.onrender.com"
             />
           </Col>
 
@@ -36,21 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="Aniket's Blog"
+              description="My personal blog page build with React.js and Tailwind Css which takes the content from makdown files and renders it using React.js. Supports dark mode and easy to write blogs using markdown."
+              ghLink="https://github.com/AniketAgra/Aniket_sBlog"
+              demoLink="https://aniketsblog-lgrb.onrender.com"
             />
           </Col>
 
@@ -58,10 +47,12 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              title="Moody Player"
+              description="Built Moody Player, a React-based music recommendation app that detects user mood in real time using face-api.js
+and recommends songs accordingly. Implemented admin-specific CRUD operations with role-based access control
+(RBAC), where admins can upload/manage songs via Multer and ImageKit."
+              ghLink="https://github.com/AniketAgra/moodyPlayer"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -69,14 +60,27 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Edulearn"
+              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              ghLink="https://github.com/AniketAgra/BeyondChats"
+              demoLink="https://beyondchats-cbtm.onrender.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Sanrakshan"
+              description="Developed a MERN stack application for digitizing fire safety approvals with multi-level admin workflows, real-time
+progress tracking via Socket.io, and role-based dashboards. Integrated a complaint ledger with insurance verification
+to ensure compliance. Key features include document uploads, reference ID generation, and live status updates."
+              ghLink="https://github.com/AyushSingh-Tomar/Sanrakshan"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +90,7 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
